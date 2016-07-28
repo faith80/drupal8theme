@@ -1,0 +1,16 @@
+name: Rustam Myagdeev
+type: theme
+description: My Awesome theme
+screenshot: rustam_myagdeev.jpg
+package: Other
+core: 8.x
+libraries:
+  - rustam_myagdeev/global-styling
+
+base theme: bartik
+
+regions:
+  content: Content
+  header: Header
+  first_sidebar: First sidebar
+  footer: Footer

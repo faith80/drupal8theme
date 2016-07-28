@@ -1,0 +1,12 @@
+rustam_myagdeev.narrow:
+  label: narrow
+  mediaQuery: 'all and (min-width: 560px) and (max-width: 850px)'
+  weight: 1
+  multipliers:
+    - 1x
+rustam_myagdeev.wide:
+  label: wide
+  mediaQuery: 'min-width: 560px'
+  weight: 2
+  multipliers:
+    - 1x
