@@ -6,7 +6,7 @@ rustam_myagdeev.narrow:
     - 1x
 rustam_myagdeev.wide:
   label: wide
-  mediaQuery: 'min-width: 560px'
+  mediaQuery: 'all and (min-width: 851px)'
   weight: 2
   multipliers:
     - 1x

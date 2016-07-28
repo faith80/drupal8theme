@@ -52,11 +52,16 @@ function rustam_myagdeev_theme_suggestions_page_alter(array &$suggestions, array
  * Implements hook_theme_suggestions_node_alter().
  */
 function rustam_myagdeev_theme_suggestions_node_alter(array &$suggestions, array $variables) {
-  /*$node = $variables['elements']['#node'];
-
-  if ($variables['elements']['#view_mode'] == "full") {
-
-  }*/
+  $node = $variables['elements']['#node'];
+  if (!empty($node->nid)) {
+    $nid = $node->nid;
+    if ($nid & 1) {
+      $suggestions[] = 'node__odd';
+    }
+    else {
+      $suggestions[] = 'node__even';
+    }
+  }
 }
 
 /**
