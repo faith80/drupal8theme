@@ -2,10 +2,10 @@
  * @file
  * Overall specifications for rustam_myagdeev.
  */
-h1.odd {
+h1.even {
   color: #00b0ff;
 }
 
-h3.even {
+h3.odd {
   color: #00e676;
 }
